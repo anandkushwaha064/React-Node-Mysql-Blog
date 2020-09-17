@@ -1,0 +1,102 @@
+.menudiv {
+  width: 100%;
+}
+.centerdiv {
+  margin-left: 3% !important;
+
+  box-shadow: -3px -3px 15px 6px #fce0e0;
+}
+.header-ul {
+  float: right !important;
+  width: 40%;
+}
+.header-ul li {
+  float: left;
+  list-style: none;
+  margin: 0% 2%;
+  background-color: rgb(209, 209, 209);
+  padding: 2% 3%;
+  color: white !important;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.header-ul li a {
+  text-decoration: none;
+  color: black;
+}
+.header-ul li:hover {
+  background-color: rgb(153, 173, 209);
+  text-decoration: none;
+}
+.list-float {
+  float: left;
+}
+.postDescription {
+  margin: 0.5% 3%;
+  padding: 0.5% 1.5%;
+}
+.postDescription p {
+  padding: 0.5% 1.5%;
+  background-color: rgb(225, 231, 235);
+  border-radius: 5px;
+}
+.postDescription font:hover {
+  cursor: pointer;
+}
+.post_details_head {
+  margin: 2% 3%;
+  padding: 0.5% 1.5%;
+  background-color: rgb(255, 211, 224);
+  border-radius: 8px;
+  text-align: center;
+}
+.post_details_head h4 {
+  margin-top: 1%;
+}
+
+.likes {
+  padding: 0.5% 1%;
+  border-radius: 8px;
+  background-color: rgb(209, 209, 209);
+  margin-right: 1%;
+}
+.likes font {
+  color: red;
+  font-size: 110%;
+}
+.comments {
+  padding: 0.5% 1%;
+  border-radius: 8px;
+  background-color: rgb(209, 209, 209);
+  margin-right: 1%;
+}
+.commentsdiv {
+  margin: 0.5% 2.5%;
+  border-radius: 8px;
+}
+
+.Commentparagraph {
+  font-size: 96%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(204, 211, 224);
+  border-radius: 5px;
+  padding: 0% 1%;
+}
+.Commentparagraph Span {
+  font-weight: bold;
+}
+.Commentparagraph i {
+  color: rgb(139, 170, 232);
+  cursor: pointer;
+  padding: 0.5%;
+}
+
+.postDescription font {
+}
+
+.Commenttext {
+  border: 1xp solid red;
+}
+.replyinputField {
+  display: none;
+}
